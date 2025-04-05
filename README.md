@@ -14,8 +14,7 @@ The north star metrics:
 ## Summary of Insights
 ### Overall trends in sales
 Yearly average sales were \$7M in 27K orders, with an AOV of \$254. From 2019-2022, total sales were \$28M over 100K+ orders, with an AOV of \$260. The best performing year was 2020 that saw \$10.1M with 33K orders and \$300 AOV, spiking due to the pandemic and decreasing to pre-pandemic levels in later years. Despite this return, all north star metrics outperform those of 2019.
-
-![Sales and sales growth rates across the months over years, shown via pivot table, growth rates, and a line graph](assets/growth_sales.png)
+<img src="assets/growth_sales.png">
 
 ### Seasonality
 - Seasonal spikes occur in March, July, and Nov-Dec, while seasonal troughs occur in October and Jan-Feb. This suggests back-to-school and holiday sales drive those seasonal spikes and the trough are a return to normal non-seasonal spending.
@@ -25,8 +24,7 @@ Yearly average sales were \$7M in 27K orders, with an AOV of \$254. From 2019-20
 - The loyalty program is successful, with 2021-2022 data showing that loyalty program customers consistently outperformed non-loyalty program customers on all north star metrics. 
 - Non-loyal customer base shows less fluctuation in overall sales performance throughout the year.
 - 2022's Q4 showed a significant dip in all metrics for loyalty program customers, lower than even pre-pandemic levels.
-
-![north_stars_by_loyalty](assets/north_stars_by_loyalty.png)
+<img src="assets/north_stars_by_loyalty.png">
 
 
 ### Platforms
@@ -39,23 +37,20 @@ Yearly average sales were \$7M in 27K orders, with an AOV of \$254. From 2019-20
 - When analyzing by product brands, there were more non-loyalty program customers who bought Apple products than loyalty program members at a ratio of 65:35.
 - All other brands including generic products like the 27" monitor showed a roughly 50/50 distribution between non- and loyalty program members.
 
-### Time-to-deliver
-- this one was SQL
-
 ### Refunds
 - The most refunded items in count were the 27in 4K gaming monitor and Apple Airpods Headphones at 1.4K and 2.6K refunded and totalling to an estimated \$607K and \$421K of potential sales, respectively.
 - The most refunded items in rate were the Macbook Air and ThinkPad laptops at 11% and 12% respectively, which were also items with the highest AOV.
 - Apple brand products had an average 6% refund rate that totalled to 52,654 returned products and an AOV of \$271, totalling to over \$840K USD in returned merchandise over 4 years. Yearly refund rates were highest in 2020 at 10% and lowest in 2022 at 0%. The 0% may be a data completeness issue that should be investigated.
+<img src="assets/refunds_apple.png" width="400">
 
-![Refund rates, counts, and AOV over the years for Apple products](assets/refunds_apple.png)
 
 ### Regions
 - North America had the most sales overall, making up 50% of total sales over the years with \$14M, where the US made up 91% of that figure.
 - Europe, Middle East, and Africa made up 16% of total sales, with Great Britain making up 45% of that figure.
 - Asia Pacific showed the highest AOV of all regions.
 - There were no particular region-specific trends, and north star metrics, their growth rates, and loyalty program sign-up numbers were proportional across regions when accounting for the number of consumers.
+<img src="assets/countries_nsm.png" width="400">
 
-![A table showing the top 5 countries that had the most sales per region, and their total north star metrics over the years.](assets/countries_nsm.png)
 
 ## Recommendations
 ### Seasonality
